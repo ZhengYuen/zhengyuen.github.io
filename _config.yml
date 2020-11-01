@@ -1,16 +1,18 @@
 # Site settings
 title: Zheng Yuan
 description: Zheng Yuan's Blog
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: ""
+url: zhengyuen.github.io # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Zheng
+username: Zheng Yuan
 user_description: I'm a graduate student studying in the University of Sheffield for Congnitive and Compuational Neuroscience.
-user_title: Student | University of Shefield
-email: zhengyuen.aries@gmail.com
-twitter_username: zhengyuen94
-github_username:  zhengyuen
+user_title: Student @ University of Shefield
+my_email: zhengyuen.aries@gmail.com
+my_instagram : https://www.instagram.com/zhengyuan.aries/
+my_twitter: https://twitter.com/zhengyuen94/
+my_facebook: https://www.facebook.com/zhengyuan.49/
+my_github:  https://github.com/ZhengYuen/
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
