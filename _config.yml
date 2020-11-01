@@ -16,3 +16,5 @@ my_github:  https://github.com/ZhengYuen/
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+theme: jekyll-theme-cayman
