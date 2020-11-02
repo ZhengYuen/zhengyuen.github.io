@@ -2,15 +2,16 @@
   <div class="header">
       <h1>
         <span class="site-title">{{ site.username }}</span>
-        <span class="site-description">{{ site.user_title }}</span>
+        <span class="site-description">{{ site.my_school }}</span>
+        <br>
       </h1>
       <div class="header-icons">
-        <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="Send email" target="_blank" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
         <a aria-label="My Github" target="_blank" href="{{ site.my_github }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="{{ site.my_linkedin }}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
         <a aria-label="My Instagram" target="_blank" href="{{ site.my_instagram }}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
         <a aria-label="My Facebook" target="_blank" href="{{ site.my_facebook }}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
         <a aria-label="My Twitter" target="_blank" href="{{ site.my_twitter }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/murraco"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
         </div>
       <div class="header-links">
         <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
