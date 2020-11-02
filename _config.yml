@@ -13,6 +13,7 @@ my_instagram : https://www.instagram.com/zhengyuan.aries/
 my_twitter: https://twitter.com/zhengyuen94/
 my_facebook: https://www.facebook.com/zhengyuan.49/
 my_github:  https://github.com/ZhengYuen/
+my_linkedin: https://www.linkedin.com/in/zhengyuen/
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
