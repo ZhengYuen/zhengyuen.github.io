@@ -1,7 +1,8 @@
 ---
 layout: blog_post
 author: Zheng
-tags: Life Photograph
+tags: Philosophy Article
+thumb_img: /assets/blog_images/span2.jpeg
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
