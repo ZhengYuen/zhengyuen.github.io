@@ -2,12 +2,12 @@
 title: Zheng's Website
 description: This is Zheng Yuan's personal website.
 baseurl: ""
-url: zhengyuen.github.io # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: zhengyuen.github.io
 
 # User settings
 username: Zheng Yuan
 user_description: Currently studying M.Sc. Cognitive and Computational Neuroscience.
-user_title: #
+user_title: Mr.
 my_school: University of Sheffield
 my_email: zhengyuen.aries@gmail.com
 my_instagram : https://www.instagram.com/zhengyuan.aries/
@@ -16,8 +16,9 @@ my_facebook: https://www.facebook.com/zhengyuan.49/
 my_github:  https://github.com/ZhengYuen/
 my_linkedin: https://www.linkedin.com/in/zhengyuen/
 my_motto: Elegance is an attitude.
-# gplus_username:  lorem_ipsum
 
+# Navigation
+
+# Settings
 exclude: ['package.json', 'src' , 'node_modules']
-
 theme: jekyll-theme-cayman

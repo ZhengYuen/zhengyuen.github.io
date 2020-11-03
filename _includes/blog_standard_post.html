@@ -1,0 +1,99 @@
+<!-- site content
+        ================================================== -->
+<div class="s-content content">
+    <main class="row content__page">
+
+        <article class="column large-full entry format-standard">
+
+            <div class="media-wrap entry__media">
+                <!--Post Image-->
+                <div class="entry__post-thumb">
+                    <img src="{{ post.thumb_img }}" srcset="" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                </div>
+            </div>
+
+            <div class="content__page-header entry__header">
+                <!--Post Meta Information-->
+                <h1 class="display-1 entry__title">
+                    {{ post.title }}
+                </h1>
+                <ul class="entry__header-meta">
+                    <li class="author">By <a href="#0">{{ page.author }}</a></li>
+                    <li class="date">{{ page.date | date_to_string }}</li>
+                    <li class="cat-links">
+                        {% if page.tags %}
+                            {% for tag in page.tags %}
+                                <a href="#Tag_Category">{{ tag }}</a>
+                            {% endfor %}
+                        {% endif %}
+                    </li>
+                </ul>
+            </div> <!-- end entry__header -->
+
+            <div class="entry__content">
+
+                <p class="lead drop-cap">
+                    {{ page.excerpt }}
+                </p>
+
+                {{ page.content | remove: page.excerpt }}
+
+                {% if page.tags %}
+                <p class="entry__tags">
+                    <span>Post Tags</span>
+                    {% for tag in page.tags %}
+                    <span class="entry__tag-list">
+                        <a href="#Tag_Category">{{ tag }}</a>
+                    </span>
+                    {% endfor %}
+                </p>
+                {% endif %}
+            </div> <!-- end entry content -->
+
+            <div class="entry__pagenav">
+                <div class="entry__nav">
+                    <div class="entry__prev">
+                        <a href="#0" rel="prev">
+                            <span>Previous Post</span>
+                            Tips on Minimalist Design
+                        </a>
+                    </div>
+                    <div class="entry__next">
+                        <a href="#0" rel="next">
+                            <span>Next Post</span>
+                            Less Is More
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- end entry__pagenav -->
+
+            <div class="entry__related">
+                <h3 class="h2">Related Articles</h3>
+
+                <ul class="related">
+                    <li class="related__item">
+                        <a href="single-standard.html" class="related__link">
+                            <img src="#" alt="">
+                        </a>
+                        <h5 class="related__post-title">Using Repetition and Patterns in Photography.</h5>
+                    </li>
+                    <li class="related__item">
+                        <a href="single-standard.html" class="related__link">
+                            <img src="#" alt="">
+                        </a>
+                        <h5 class="related__post-title">Health Benefits Of Morning Dew.</h5>
+                    </li>
+                    <li class="related__item">
+                        <a href="single-standard.html" class="related__link">
+                            <img src="#" alt="">
+                        </a>
+                        <h5 class="related__post-title">The Art Of Visual Storytelling.</h5>
+                    </li>
+                </ul>
+            </div> <!-- end entry related -->
+
+        </article> <!-- end column large-full entry-->
+
+    </main>
+
+</div> <!-- end s-content -->
